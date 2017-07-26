@@ -7,7 +7,7 @@ There is a lot of plastic waste and it is rarely utilised after it is disposed. 
 
 For Information on our revision history: <https://github.com/Gigabot-Labs/Pellet-Extruder/wiki/Revision-history>
 
-
+For documentation information: <https://github.com/Gigabot-Labs/Pellet-Extruder/wiki/Documentation>
 
 ## External Links
 

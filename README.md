@@ -9,10 +9,10 @@ For Information on our revision history: <https://github.com/Gigabot-Labs/Pellet
 
 
 
-### External Links
+## External Links
 
 Our forum thread about the project where we post constant updates as well as testing information: <https://re3d.zendesk.com/hc/en-us/community/posts/115018093823-Printing-With-Pellets>
 
 If you are interesed in the gigabot platform: <https://re3d.org/>
 
-#### Partners
+## Partners

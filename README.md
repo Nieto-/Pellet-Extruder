@@ -3,9 +3,16 @@ There is a lot of plastic waste and it is rarely utilised after it is disposed. 
 
 ![Sceenshot](http://i.imgur.com/qnTeEMp.png)
 
+## Project Links
 
-## Useful Links
+For Information on our revision history: <https://github.com/Gigabot-Labs/Pellet-Extruder/wiki/Revision-history>
+
+
+
+### External Links
 
 Our forum thread about the project where we post constant updates as well as testing information: <https://re3d.zendesk.com/hc/en-us/community/posts/115018093823-Printing-With-Pellets>
 
-### Partners
+If you are interesed in the gigabot platform: <https://re3d.org/>
+
+#### Partners

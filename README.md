@@ -16,3 +16,5 @@ Our forum thread about the project where we post constant updates as well as tes
 If you are interesed in the gigabot platform: <https://re3d.org/>
 
 ## Partners
+
+This proect is supported by the [re:3D team](https://re3d.org/about/)

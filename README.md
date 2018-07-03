@@ -1,8 +1,7 @@
 # Project Trash Printer
 There is a lot of plastic waste and it is rarely utilised after it is disposed. We think that if we could create a machine capable of being fed the ground up plastic waste and print with it, we will be able to find a solution to the growing amount of trash. The goal of this project is to create a modular and open sourced design for a pellet extruder for integration into the Gigabot platform. This project has already taken on multiple revisions before ever starting physical construction.
 
-![Imgur](http://i.imgur.com/fS8b5e9.png)
-
+![Imgur](https://i.imgur.com/iadh4pK.png)
 ## Project Links
 
 For Information on our revision history: <https://github.com/Gigabot-Labs/Pellet-Extruder/wiki/Revision-history>

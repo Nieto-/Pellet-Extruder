@@ -27,7 +27,7 @@
 
   #define TEMP_SENSOR_0   -1
   #define TEMP_SENSOR_1   -1
-  #define TEMP_SENSOR_2   -1
+  #define TEMP_SENSOR_2   -4
   #define TEMP_SENSOR_3    0
   #define TEMP_SENSOR_4    0
   #define TEMP_SENSOR_BED -4
@@ -79,12 +79,13 @@
 
   #define DEFAULT_AXIS_STEPS_PER_UNIT   { 118.52, 118.52, 4031.5, 1000 }
   #define DEFAULT_MAX_FEEDRATE          { 150, 150, 4, 60 }
-  #define DEFAULT_MAX_ACCELERATION      { 2000, 2000, 100, 10000 }
+  #define DEFAULT_MAX_ACCELERATION      { 900, 900, 100, 1000 }
   #define DEFAULT_ACCELERATION          1000    // X, Y, Z and E acceleration for printing moves
   #define DEFAULT_RETRACT_ACCELERATION  1500  
-  #define DEFAULT_XJERK                 9.0
+  #define DEFAULT_XJERK                 5.0
   #define DEFAULT_YJERK                 9.0
 #endif
+
 
 #if SYSTEM_SECTION == SUBSECTION(MACHINE, 5)
   #undef  X_BED_SIZE

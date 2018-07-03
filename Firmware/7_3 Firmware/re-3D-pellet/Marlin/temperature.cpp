@@ -950,11 +950,13 @@ float Temperature::analog2temp(const int raw, const uint8_t e) {
 
   // Thermocouple with amplifier ADC interface
   return (raw *
-    #if HEATER_USES_AD8495
+    #if HEATER_USES_AD595
+     5.0 * 100.0 / 1024.0 / (OVERSAMPLENR) * (TEMP_SENSOR_AD595_GAIN) + TEMP_SENSOR_AD595_OFFSET
+    #elif HEATER_USES_AD8495
       //660.0 / 1024.0 / (OVERSAMPLENR) * (TEMP_SENSOR_AD8495_GAIN) + TEMP_SENSOR_AD8495_OFFSET  //changed to different equation for GBX
 	  (5.0 * 100.0) / 1024.0 / (OVERSAMPLENR) * (TEMP_SENSOR_AD8495_GAIN) + TEMP_SENSOR_AD8495_OFFSET // changed equation GBX
-    #elif HEATER_USES_AD595
-      5.0 * 100.0 / 1024.0 / (OVERSAMPLENR) * (TEMP_SENSOR_AD595_GAIN) + TEMP_SENSOR_AD595_OFFSET
+ //   #elif HEATER_USES_AD595
+ //     5.0 * 100.0 / 1024.0 / (OVERSAMPLENR) * (TEMP_SENSOR_AD595_GAIN) + TEMP_SENSOR_AD595_OFFSET
     #else
       0
     #endif

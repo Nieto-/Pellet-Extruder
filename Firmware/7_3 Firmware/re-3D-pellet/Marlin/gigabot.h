@@ -183,7 +183,7 @@
   #undef  INVERT_X_DIR
   #undef  INVERT_Y_DIR
 
-  #define INVERT_X_DIR true
+  #define INVERT_X_DIR false //GBX
   #define INVERT_Y_DIR false
 #endif
 
